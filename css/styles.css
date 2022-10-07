@@ -58,6 +58,11 @@ p {
     font-size: 1.2rem;
     font-weight: 300;
 }
+.nav-link:hover {
+    background-color: #F8F8FF;
+    color: #ff4c68;
+    border-radius: 2%;
+}
 .img-cont{
     position: relative;
 }
@@ -149,16 +154,16 @@ p {
 /* Section: Footer */
 .footer-icon {
     padding: 1rem;
-    align-items: center;
 }
 
 @media (max-width: 1019px) {
-    #title {
+    #title .container-fluid {
         text-align: center;
     }
     .title-img {
         width: 50%;
         position: static;
         transform: rotate(0);
+        padding-top: 2rem;
     }
 }
