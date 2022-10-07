@@ -1,35 +1,47 @@
 /* ~~~~~~~~~~  HTML Elements  ~~~~~~~~~~ */
 body {
     font-family: 'Montserrat', sans-serif;
+    text-align: center;
 }
-h1 {
-    font-size: 3.5rem;
-    line-height: 1.5;
+
+h1, h2, h3, h4, h5, h6 {
     font-weight: 900;
 }
-h2 {
-    font-size: 3rem;
-    font-weight: 700;
-    line-height: 1.5;
-}
-h3 {
-    font-weight: 700;
-    font-size: 1.5rem;
-}
+
 p {
     color: #8f8f8f;
 }
 
 /* ~~~~~~~~~~  Classes & Ids  ~~~~~~~~~~ */
 
-/* Section: Title */
-#title {
+/* Headings */
+.big-heading {
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+.section-heading {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+/* Containers */
+.container-fluid{
+    padding: 7% 15%;
+}
+
+/* Sections */
+.colored-section {
     background-color: #ff4c68;
     color: #F8F8FF;
 }
+.white-section {
+    background-color: #F8F8FF;
+}
 
-.container-fluid{
+/* Section: Title */
+#title .container-fluid {
     padding: 3% 15% 7%;
+    text-align: left;
 }
 .navbar {
     padding: 0 0 4.5rem;
@@ -46,9 +58,6 @@ p {
     font-size: 1.2rem;
     font-weight: 300;
 }
-/* .title-col {
-    margin: 0 1rem;
-} */
 .img-cont{
     position: relative;
 }
@@ -65,14 +74,14 @@ p {
 
 /* Section: Features */
 #features { 
-    background-color: #F8F8FF;
-    padding: 7% 15%;
     position: relative;
 }
 
 .feature-box {
     padding: 5%;
-    text-align: center;
+}
+.feature-heading {
+    font-size: 1.5rem;
 }
 .icon {
     margin-bottom: 1rem;
@@ -86,15 +95,12 @@ p {
 /* Section: Testimonials */
 #testimonials {
     background-color: #EF8172;
-    color: #fff;    
-    text-align: center;
-    /* padding: 7% 15%; */
 }
 
-.carousel-inner {
-    padding: 7% 15%;
+.testimonial-text {
+    font-size: 3rem;
+    line-height: 1.5;
 }
-
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
     background-size: 100%, 100%;
@@ -108,11 +114,10 @@ p {
     margin: 20px;
 }
 
-/* Section: Press */
+/* Section: Press    */
 #press {
     background-color: #EF8172;
     padding-bottom: 3%;
-    text-align: center;
 }
 
 .press-logo {
@@ -123,34 +128,25 @@ p {
 
 /* Section: Pricing */
 #pricing {
-    background-color: #F8F8FF;
     padding: 3% 15%;
-    text-align: center;
 }
 
 .pricing-column {
     padding: 3% 2%;
 }
-
-/* Section: CTA */
-#cta {
-    background-color: #ff4c68;
-    text-align: center;
-    padding: 7% 15%;
+.price-title {
+    font-size: 1.5rem;
 }
-
-.cta-title {
-    color: #F8F8FF;
-    font-size: 3.5rem;
-    font-weight: 900;
+.price-text {
+    font-size: 3rem;
     line-height: 1.5;
 }
 
-/* Section: Footer */
-#footer {
-    padding: 7% 15%;
-    text-align: center;
+/* Section: CTA */
+#cta {
 }
+
+/* Section: Footer */
 .footer-icon {
     padding: 1rem;
     align-items: center;
