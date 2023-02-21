@@ -17,4 +17,5 @@ a pricing plan section, a call to action where you get our users to download the
 After cloning the repository in your computer, just open the HTML file with your projects.
 
 
+### Creator
 It was made by **Kostis Gkriziotis** as part of Udemy's *Web Development Bootcamp* course.
