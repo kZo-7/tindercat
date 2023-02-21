@@ -1,6 +1,4 @@
 # TinCat
-
-## Description
 A Tinder app for Cats. Just the UI - no functionality.
 
 
@@ -18,4 +16,5 @@ a pricing plan section, a call to action where you get our users to download the
 ### Installation
 After cloning the repository in your computer, just open the HTML file with your projects.
 
-#### It was made by Kostis Gkriziotis as part of Udemy's Web Development Bootcamp course.
+
+It was made by **Kostis Gkriziotis** as part of Udemy's *Web Development Bootcamp* course.
